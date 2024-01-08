@@ -32,7 +32,7 @@ public class NoCommers {
 
 		WebElement year = driver.findElement(By.xpath("//select[@name=\"DateOfBirthYear\"]"));
 		Select sec1 = new Select(year);
-		sec1.selectByValue("1965");
+		sec1.selectByValue("1999");
 
 		driver.findElement(By.xpath("//input[@id=\"Email\"]")).sendKeys("abdulazeem0517@gmail.com");
 		driver.findElement(By.xpath("//input[@id=\"Password\"]")).sendKeys("Abdul@12345");
